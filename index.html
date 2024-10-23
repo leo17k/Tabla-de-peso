@@ -1,0 +1,39 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="styele.css">
+    <title>Ejemplo de Tabla</title>  
+ 
+</head>  
+<body>  
+    <h1>Tabla de alumnos</h1>  
+    <table id="tabla-alumnos">  
+        <thead>  
+            <tr>  
+                <th>Nombre</th>  
+                <th>Edad</th> 
+                <th>Estatura</th> 
+                <th>Peso</th>  
+                <th>Condicion</th>
+            </tr>  
+        </thead>  
+        <tbody>  
+            <td id="Nombre" class="editable" onclick="editartabla(this)"></td>  
+            <td id="Edad" class="editable" onclick="editartabla(this)"></td>  
+            <td id="Estatura" class="editable" onclick="editartabla(this)"></td>  
+            <td id="Peso" class="editable" onclick="editartabla(this)"></td>  
+            <td class="editable" id="Condicion"></td>  
+          
+        </tbody>  
+    </table>  
+<div class="contenedor-btn">
+    <div class="div-add"><button id="Add" onclick="añadirfila()"> Añadir Fila</button></div>
+
+    <div class="div-edit"><button id="Edit">Calcular</button></div>
+</div>
+
+    <script src="scrip.js"></script>
+</body>  
+</html>

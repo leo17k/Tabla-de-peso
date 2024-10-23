@@ -1,0 +1,81 @@
+body{
+    background-image: url("Background_image.svg");
+    background-color: #121826;
+    font-family: "Outfit", sans-serif;
+    color: rgba(255, 255, 255, 0.74);
+  
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+table {  
+    width: 100%;  
+    border-collapse: collapse;  
+    
+}  
+th{
+    padding: 8px;  
+    text-align: left;  
+    border: 2px solid #f2f2f250;  
+    text-justify: center;
+}
+
+td {  
+    height: 10px;
+  
+    border: 2px solid #f2f2f250;  
+    padding: 8px;  
+    text-align: left;  
+}  
+th {  
+    background-color: #f2f2f250;  
+    
+}  
+
+#Add{
+    all: unset;
+  
+}
+
+#Edit{
+    all: unset;
+}
+
+.div-add{
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+   
+   margin-top: 15px;
+ 
+    background: #b62bbb;
+}
+
+.div-edit{
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+   
+   margin-top: 15px;
+ 
+    background: #2bbb62;
+}
+
+.contenedor-btn{
+    display: flex;
+    gap: 20px;
+}
+
+#Condicion{
+    background: #9b252596;
+    
+}
